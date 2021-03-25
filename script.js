@@ -19,5 +19,5 @@ function math () {
   c = 2 * (pi * radius)
   c = c.toFixed(1)
   // prints the results
-  document.getElementById('answer').innerHTML = 'The area is ' + area + ' and the circumfernce is ' + c +'.'
+  document.getElementById('answer').innerHTML = 'The area is ' + area + ' and the circumfernce is ' + c + '.'
 }
