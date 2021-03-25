@@ -15,9 +15,9 @@ function math () {
   // finds the area of the circle
   area = pi * (radius * radius)
   area = area.toFixed(1)
-  // finds the circumfernce of the circle
+  // finds the circumference of the circle
   c = 2 * (pi * radius)
   c = c.toFixed(1)
   // prints the results
-  document.getElementById('answer').innerHTML = 'The area is ' + area + ' and the circumfernce is ' + c + '.'
+  document.getElementById('answer').innerHTML = 'The area is ' + area + ' and the circumference is ' + c + '.'
 }
